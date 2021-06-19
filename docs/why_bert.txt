@@ -1,0 +1,2 @@
+BERT stands for Bidirectional Encoder Representations from Transformers and it is a state-of-the-art machine learning model used for NLP tasks.
+BERT is based on English Wikipedia and BooksCorpus.

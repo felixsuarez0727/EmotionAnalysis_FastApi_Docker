@@ -1,0 +1,2 @@
+We can use both: cased and uncased version of BERT and tokenizer; but the cased version seems to work better.
+This makes sense because GREAT! is greater than Great!.

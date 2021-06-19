@@ -1,0 +1,2 @@
+# For testing the app outside docker, execute below command:
+uvicorn app.api:app --port 8080

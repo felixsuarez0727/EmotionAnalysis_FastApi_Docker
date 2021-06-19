@@ -1,0 +1,7 @@
+#!/bin/bash
+
+http POST http://localhost:8080/predict text="This app is a total waste of time!"
+http POST http://localhost:8080/predict text="I spent time fixing dependency issues in this code."
+http POST http://localhost:8080/predict text="I hate this app."
+
+curl 'http://localhost:8080/healthcheck'
