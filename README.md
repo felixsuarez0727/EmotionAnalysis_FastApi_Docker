@@ -38,9 +38,9 @@ Emotion Analysis requiere de los siguientes pasos para ser desplegado:
         ```
     El Resultado es un JSON con los siguientes datos:
      ```JSON
-            {
+     {
                 
-            }
+     }
      ```
     5. Se puede saber el estado de API haciendo una solicitud HTTP GET a la siguiente URL 'http://localhost:8080/healthcheck'
     
