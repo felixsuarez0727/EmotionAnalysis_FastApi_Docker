@@ -1,9 +1,9 @@
 # Emotion Analysis en Docker
 
 ## **Introducción**
-Emotion Analysis es un API que corre sobre Docker, este API es la implementación de PySentimiento y FastAPI. Este API utiliza la tecnología BERT (Representación de Codificador Bidireccional de Transformadores), una tecnología de red neural desarrollada por Google para el procesamiento de lenguaje natural (NLP). 
-Esta API determina el Sentimiento con el que se escriben frases, por tanto ofrece una poderosa herramienta para el análisis de las emociones de un grupo de estudio.
-Es importante destacar que el análisis de las frases de esta implementación es posible en el Idioma Español.
+Emotion Analysis es un API que corre en un contenedor de Docker, este API es la implementación de PySentimiento y FastAPI. El API utiliza la tecnología BERT (Representación de Codificador Bidireccional de Transformadores), una tecnología de red neural desarrollada por Google para el procesamiento de lenguaje natural (NLP). 
+Esta API determina la emoción con el que se escriben frases, por tanto ofrece una poderosa herramienta para el análisis de las emociones de un grupo de estudio.
+Es importante destacar que el análisis de las frases de esta implementación es posible en el Idioma Español e Inglés.
 
 En el presente proyecto, la implentación es capaz de analizar la emoción de frases para categorizarlas como:
 
@@ -45,7 +45,14 @@ Emotion Analysis requiere de los siguientes pasos para ser desplegado:
     5. Se puede saber el estado de API haciendo una solicitud HTTP GET a la siguiente URL 'http://localhost:8080/healthcheck'
     
 ## **Referencias**    
+Mg. Augusto Cortez Vásquez, Mg. Hugo Vega Huerta, Lic. Jaime Pariona Quispe, Procesamiento de lenguaje natural. Revista de Ingeniería de Sistemas e Informática vol. 6, N.º 2, Julio - Diciembre 2009 https://core.ac.uk/download/pdf/304898423.pdf
 
+Hohendahl, Andres. (2011). Procesamiento de Lenguaje Natural Robusto. 
 
+Arbieu, Ugo & Helsper, Kathrin & Dadvar, Maral & Mueller, Thomas & Niamir, Aidin. (2021). Natural Language Processing as a tool to evaluate emotions in conservation conflicts. Biological Conservation. 256. 109030. 10.1016/j.biocon.2021.109030. 
+
+A, Ashwitha & Gowda, Shruthi & R, Shruthi & Upadhyaya, Makarand & Ray, Abhra & C, Manjunath. (2020). Sarcasm detection in natural language processing. Materials Today: Proceedings. 37. 10.1016/j.matpr.2020.09.124. 
+
+Carvalho, A., Levitt, A., Levitt, S., Khaddam, E., & Benamati, J. (2019). Off-The-Shelf Artificial Intelligence Technologies for Sentiment and Emotion Analysis: A Tutorial on Using IBM Natural Language Processing. Communications of the Association for Information Systems, 44, pp-pp. https://doi.org/10.17705/1CAIS.04443
 
 Emotion Analysis en Docker en Docker - 2021
