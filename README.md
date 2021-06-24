@@ -22,7 +22,10 @@ Emotion Analysis requiere de los siguientes pasos para ser desplegado:
     # To build the image.
         docker build -t test.
     # To run the image.
-        docker run -d -p 8080:8080 --env=GOOGLE_APPLICATION_CREDENTIALS=./auth/gcp-key.json --env=BERT_MODEL=bert-base-cased --env=PRE_TRAINED_MODEL=model.h5 --name test test
+        # English
+        docker run -d -p 8080:8080 --env=GOOGLE_APPLICATION_CREDENTIALS=./auth/gcp-key.json --env=BERT_MODEL=bert-base-cased --env=PRE_TRAINED_MODEL=model_en.h5 --name test test
+        # Spanish
+        docker run -d -p 8080:8080 --env=GOOGLE_APPLICATION_CREDENTIALS=./auth/gcp-key.json --env=BERT_MODEL=dccuchile/bert-base-spanish-wwm-cased --env=PRE_TRAINED_MODEL=model_es.h5 --name test test
     ```
 ## **Ejecución**
 1. Recomendable instalar Postman para realizar la prueba del API.
