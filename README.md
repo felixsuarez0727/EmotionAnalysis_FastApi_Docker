@@ -33,14 +33,38 @@ Emotion Analysis requiere de los siguientes pasos para ser desplegado:
     4. Por Cuerpo de Request se emplea el siguiente JSON
         ```JSON
         {
-            
+            "text":"Tengo miedo de los resultados" //miedo
+        }
+        {
+            "text":"Al fin soy licenciado!" //alegría
         }
         ```
     El Resultado es un JSON con los siguientes datos:
      ```JSON
      {
-                
+        "probabilities": {
+            "others": 0.00047419764450751245,
+            "joy": 0.0005863586557097733,
+            "sadness": 0.0008085058070719242,
+            "anger": 0.0004003949579782784,
+            "surprise": 0.0007311805966310203,
+            "disgust": 0.0020003325771540403,
+            "fear": 0.9949990510940552
+        }, 
+        "text": "Tengo miedo de los resultados"
      }
+     {
+        "probabilities": {
+            "others": 0.017171956598758698,
+            "joy": 0.9230880737304688,
+            "sadness": 0.0013184791896492243,
+            "anger": 0.0022533515002578497,
+            "surprise": 0.05030648410320282,
+            "disgust": 0.003397917840629816,
+            "fear": 0.002463741460815072
+        },
+        "text": "Al fin soy licenciado!"
+    }
      ```
     5. Se puede saber el estado de API haciendo una solicitud HTTP GET a la siguiente URL 'http://localhost:8080/healthcheck'
     
