@@ -5,7 +5,7 @@ Emotion Analysis es un API que corre en un contenedor de Docker, este API es la 
 Esta API determina la emoción con el que se escriben frases, por tanto ofrece una poderosa herramienta para el análisis de las emociones de un grupo de estudio.
 Es importante destacar que el análisis de las frases de esta implementación es posible en el Idioma Español e Inglés.
 
-En el presente proyecto, la implentación es capaz de analizar la emoción de frases para categorizarlas como:
+En el presente proyecto, la implementación es capaz de analizar la emoción de frases para categorizarlas como:
 
 1. Positivas
 2. Neutrales
