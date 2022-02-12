@@ -4,13 +4,7 @@
 This projects was developed to retrieve data out Target.Com, to do so we try to use Scrapy, but due to the nature of the website,
 its content is delivered dinamically, we had to make a little research on how the content is requested.
 As result, it was necessary to perform a HTTP Get Request from the website's datasource to retrieve the data and show the asked items:
--Price
--Description
--Specifications
--Highlights
--questions
--Images URLS
--Title
+Price,Description,Specifications,Highlights,Questions,Images URLS,Title
 
 ## **How to Run**
 1. Navigate to the folder.
